@@ -12,6 +12,12 @@ This code relies on the Proton Python Client. Please note that, as of now, the l
 
 For more details on the Proton Python Client, like updates and others, refer to the [Proton Python Client repository](https://github.com/protonmail/proton-python-client).
 
+### Inspiration
+
+This project draws inspiration from [Hydroxide](https://github.com/emersion/hydroxide.git), an analogous open-source ProtonMail bridge implemented in Golang by the talented developers at emersion. We acknowledge their innovative work and aim to provide a Python implementation to extend the accessibility and contribution possibilities to the Python community.
+
+For more details on the original Hydroxide project, visit [Hydroxide on GitHub](https://github.com/emersion/hydroxide.git).
+
 ## Features
 
 - **Command-Line Interface (CLI):** No graphical user interface (GUI) is provided to ensure compatibility with headless environments.
