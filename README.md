@@ -1,10 +1,10 @@
-# ProtonPyBridge
+# Proton Py Bridge
 
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
 ## Overview
 
-ProtonPyBridge is a third-party, open-source ProtonMail bridge implemented in Python. It is designed for power users and intended to run on a server. The project supports CardDAV, IMAP, and SMTP, providing compatibility with standard protocols.
+Proton Py Bridge is a third-party, open-source ProtonMail bridge implemented in Python. It is designed for power users and intended to run on a server. The project supports CardDAV, IMAP, and SMTP, providing compatibility with standard protocols.
 
 ### Dependency: Proton Python Client
 
@@ -28,13 +28,13 @@ Feel free to join our community on IRC: #hydroxide-python on Libera Chat.
 
 ## How It Works
 
-ProtonPyBridge acts as a server, translating standard protocols (SMTP, IMAP, CardDAV) into ProtonMail API requests. This allows users to leverage their preferred email clients and tools like `git-send-email` with ProtonMail.
+Proton Py Bridge acts as a server, translating standard protocols (SMTP, IMAP, CardDAV) into ProtonMail API requests. This allows users to leverage their preferred email clients and tools like `git-send-email` with ProtonMail.
 
 ```mermaid
 sequenceDiagram
 
     participant c as E-Mail Client
-    participant h as ProtonPyBridge
+    participant h as Proton Py Bridge
     participant p as Proton Mail
 
     c->>h: IMAP, SMTP
@@ -45,7 +45,7 @@ sequenceDiagram
 
 ### Python
 
-ProtonPyBridge is implemented in Python. Ensure you have a compatible Python environment installed.
+Proton Py Bridge is implemented in Python. Ensure you have a compatible Python environment installed.
 
 ### Installation
 
@@ -65,11 +65,11 @@ python setup.py configure
 
 ## Usage
 
-ProtonPyBridge supports multiple modes of operation. It is recommended to use the provided `hydroxide-python serve` command to avoid starting the bridge multiple times.
+Proton Py Bridge supports multiple modes of operation. It is recommended to use the provided `hydroxide-python serve` command to avoid starting the bridge multiple times.
 
 ### SMTP
 
-To run ProtonPyBridge as an SMTP server:
+To run Proton Py Bridge as an SMTP server:
 
 ```shell
 hydroxide-python smtp
@@ -87,7 +87,7 @@ Configure your email client with the following settings:
 
 ⚠️ **Warning:** IMAP support is a work in progress. Exercise caution.
 
-Set up an HTTPS reverse proxy to forward requests to ProtonPyBridge:
+Set up an HTTPS reverse proxy to forward requests to Proton Py Bridge:
 
 ```shell
 hydroxide-python carddav
