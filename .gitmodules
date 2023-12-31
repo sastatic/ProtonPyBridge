@@ -1,3 +1,0 @@
-[submodule "external/proton-python-client"]
-	path = external/proton-python-client
-	url = https://github.com/ProtonMail/proton-python-client.git
