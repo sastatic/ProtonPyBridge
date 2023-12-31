@@ -1,6 +1,6 @@
-# Contributing to Hydroxide Python
+# Contributing to ProtonPyBridge
 
-Welcome to Hydroxide Python! We're thrilled that you're interested in contributing. Before you get started, please take a moment to read through the following guidelines.
+Welcome to ProtonPyBridge! We're thrilled that you're interested in contributing. Before you get started, please take a moment to read through the following guidelines.
 
 ## Code of Conduct
 
@@ -61,6 +61,6 @@ This project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.
 
 - [Sarwar Ali](mailto:sarwaralisiddiqui@gmail.com)
 
-Thank you for contributing to Hydroxide Python!
+Thank you for contributing to ProtonPyBridge!
 
 Happy coding!
