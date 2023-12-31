@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignore proton-python-client submodule
+external/proton-python-client/
+
+# Ignore macOS metadata folders
+.DS_Store
+
 # C extensions
 *.so
 
