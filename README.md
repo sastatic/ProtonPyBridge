@@ -27,12 +27,12 @@ Hydroxide Python acts as a server, translating standard protocols (SMTP, IMAP, C
 ```mermaid
 sequenceDiagram
 
-    participant eMailClient
-    participant HydroxidePython
-    participant ProtonMail
+    participant c as E-Mail Client
+    participant h as Hydroxide Python
+    participant p as Proton Mail
 
-    eMailClient->>HydroxidePython: IMAP, SMTP
-    HydroxidePython->>ProtonMail: ProtonMail API
+    c->>h: IMAP, SMTP
+    h->>p: ProtonMail API
 ```
 
 ## Setup
