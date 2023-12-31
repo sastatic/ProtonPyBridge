@@ -24,6 +24,17 @@ Feel free to join our community on IRC: #hydroxide-python on Libera Chat.
 
 Hydroxide Python acts as a server, translating standard protocols (SMTP, IMAP, CardDAV) into ProtonMail API requests. This allows users to leverage their preferred email clients and tools like `git-send-email` with ProtonMail.
 
+```mermaid
+sequenceDiagram
+
+    participant eMailClient
+    participant HydroxidePython
+    participant ProtonMail
+
+    eMailClient->>HydroxidePython: IMAP, SMTP
+    HydroxidePython->>ProtonMail: ProtonMail API
+```
+
 ## Setup
 
 ### Python
