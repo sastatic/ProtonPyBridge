@@ -52,9 +52,8 @@ Hydroxide Python is implemented in Python. Ensure you have a compatible Python e
 Clone the repository and install the project:
 
 ```shell
-git clone https://github.com/sastatic/hydroxide-python.git
+git clone --recursive https://github.com/sastatic/hydroxide-python.git
 cd hydroxide-python
-git clone https://github.com/ProtonMail/proton-python-client.git
 pip install -r requirements.txt
 ```
 
