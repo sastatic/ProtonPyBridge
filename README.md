@@ -24,7 +24,7 @@ For more details on the original Hydroxide project, visit [Hydroxide on GitHub](
 - **Standard-Compliant:** The project adheres to industry standards, prioritizing compatibility with standard protocols while not catering to specific platforms like Microsoft Outlook.
 - **Fully Open-Source:** The entire codebase is available for review and contribution.
 
-Feel free to join our community on IRC: #hydroxide-python on Libera Chat.
+Feel free to join our community on IRC: #protonpybridge on Libera Chat.
 
 ## How It Works
 
@@ -52,8 +52,8 @@ Proton Py Bridge is implemented in Python. Ensure you have a compatible Python e
 Clone the repository and install the project:
 
 ```shell
-git clone --recursive https://github.com/sastatic/hydroxide-python.git
-cd hydroxide-python
+git clone --recursive https://github.com/sastatic/protonpybridge.git
+cd protonpybridge
 pip install -r requirements.txt
 ```
 
@@ -65,14 +65,14 @@ python setup.py configure
 
 ## Usage
 
-Proton Py Bridge supports multiple modes of operation. It is recommended to use the provided `hydroxide-python serve` command to avoid starting the bridge multiple times.
+Proton Py Bridge supports multiple modes of operation. It is recommended to use the provided `protonpybridge serve` command to avoid starting the bridge multiple times.
 
 ### SMTP
 
 To run Proton Py Bridge as an SMTP server:
 
 ```shell
-hydroxide-python smtp
+protonpybridge smtp
 ```
 
 Configure your email client with the following settings:
@@ -90,7 +90,7 @@ Configure your email client with the following settings:
 Set up an HTTPS reverse proxy to forward requests to Proton Py Bridge:
 
 ```shell
-hydroxide-python carddav
+protonpybridge carddav
 ```
 
 Tested on GNOME (Evolution) and Android (DAVDroid).
@@ -102,7 +102,7 @@ Tested on GNOME (Evolution) and Android (DAVDroid).
 For now, it only supports unencrypted local connections:
 
 ```shell
-hydroxide-python imap
+protonpybridge imap
 ```
 
 ## Contribution
